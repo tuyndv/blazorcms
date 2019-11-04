@@ -1,0 +1,4 @@
+ef Migration
+Add-Migration InitialCreate -Context BaseSystemDbContext -OutputDir Migrations\BaseSystemDbMigrations
+Add-Migration InitialCreate -Context NotificationDbContext -OutputDir Migrations\NotificationDbMigrations
+Add-Migration InitialCreate -Context IdentityDbContext -OutputDir Migrations\IdentityDbMigrations

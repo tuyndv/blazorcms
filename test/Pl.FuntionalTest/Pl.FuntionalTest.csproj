@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.3.0" />
+    <PackageReference Include="Moq" Version="4.13.1" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Pl.Caching\Pl.Caching.csproj" />
+    <ProjectReference Include="..\..\src\Pl.Core\Pl.Core.csproj" />
+    <ProjectReference Include="..\..\src\Pl.EntityFrameworkCore\Pl.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\src\Pl.Identity\Pl.Identity.csproj" />
+    <ProjectReference Include="..\..\src\Pl.Logging\Pl.Logging.csproj" />
+    <ProjectReference Include="..\..\src\Pl.Notification\Pl.Notification.csproj" />
+    <ProjectReference Include="..\..\src\Pl.System\Pl.System.csproj" />
+    <ProjectReference Include="..\..\src\Pl.WebFramework\Pl.WebFramework.csproj" />
+  </ItemGroup>
+
+</Project>

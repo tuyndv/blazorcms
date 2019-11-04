@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pl.Caching\Pl.Caching.csproj" />
+    <ProjectReference Include="..\Pl.Core\Pl.Core.csproj" />
+    <ProjectReference Include="..\Pl.EntityFrameworkCore\Pl.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\Pl.Identity\Pl.Identity.csproj" />
+    <ProjectReference Include="..\Pl.Logging\Pl.Logging.csproj" />
+    <ProjectReference Include="..\Pl.Notification\Pl.Notification.csproj" />
+    <ProjectReference Include="..\Pl.System\Pl.System.csproj" />
+    <ProjectReference Include="..\Pl.WebFramework\Pl.WebFramework.csproj" />
+  </ItemGroup>
+
+</Project>

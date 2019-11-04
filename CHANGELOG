@@ -1,0 +1,39 @@
+﻿Quy tắc đặt version của hệ thống là x.y.z
+	- x đại diện cho thay đổi lớn concept và kiến trúc của hệ thống
+	- y đại diện cho thay đổi lớn về giao diện người dùng
+	- z đại diện cho các bản update nhỏ, các bản vá bảo mật vvv
+
+Danh sách các tính năng ver 1.0.0
+	- Quản lý và phân quyền user
+	- Quản lý nhật ký hoạt động của user
+	- Quản lý nhóm user
+	- Quản lý thư viện files, images, vides, youtube video
+	- Quản lý mẫu email, mesage
+	- Quản lý Nhóm người nhận thông báo
+	- Quản lý người nhận thông báo
+	- Quản lý tài khoản email dùng để gửi, thông báo trong hệ thống
+	- Quản lý các emial đợi gửi trong hệ thống
+	- Quản lý các menu trong hệ thống
+	- Cấu hình cài đặt chung của hệ thống
+	- Cấu hình cài đặt seo
+	- Cấu hình cài đặt Url
+	- Cấu hình cài đặt tải lên
+	- Cấu hình cài đặt soạn thảo
+	- Cấu hình cài đặt Captcha
+	- Cấu hình cài đặt người dùng
+	- Cấu hình cài đặt chuyên sâu
+	- Tìm kếm tính năng cms
+	- Phím tắt trong cms
+	- Xóa cache cho cms
+	- Khởi động lại cms
+	- Thông tin hệ thống
+	- Quản lý nhật ký lỗi trong hệ thống
+	- Xem danh sách icon mà hệ thống hỗ trợ
+	- Ghi chú nhanh cho người dùng
+	- Đổi mật khẩu
+	- Chỉnh sửa thông tin cá nhân
+	- Đăng xuất, đăng nhập
+	- Phục hồi mật khẩu đã quên
+	- Kiểm tra và thông báo khắc phục các sự cố trong quá trình setup cms
+	- Hiện thị tông tin của google analytic trên trang tổng quan
+	- Hiển thị biểu đồ thao tác của người dùng trên trang tổng quan
